@@ -5,7 +5,9 @@ header("Content-Type: application/json");
 header("Access-Control-Allow-Methods: GET, OPTIONS");
 header("Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-With");
 
-include('function2.php');
+include('function2.php');  
+
+
 
 $requestMethod = $_SERVER["REQUEST_METHOD"];
 
